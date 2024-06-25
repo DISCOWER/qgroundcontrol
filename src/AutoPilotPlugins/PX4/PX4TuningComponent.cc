@@ -75,7 +75,7 @@ QUrl PX4TuningComponent::setupSource(void) const
         case MAV_TYPE_VTOL_RESERVED5:
             qmlFile = "qrc:/qml/PX4TuningComponentVTOL.qml";
             break;
-        case 99:
+        case MAV_TYPE_SPACECRAFT:
             // Spacecraft Type
             qmlFile = "qrc:/qml/PX4TuningComponentSpacecraft.qml";
         default:
